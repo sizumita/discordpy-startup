@@ -3,6 +3,7 @@ import os
 import traceback
 
 bot = commands.Bot(command_prefix='/')
+bot.load_extension('dispander')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
